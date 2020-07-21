@@ -101,7 +101,7 @@
                 $_SERVER['REQUEST_URI'] = '/default';
             }
             $redirect_uri = urlencode('http://'.$_SERVER['HTTP_HOST']."/?/admin/drives&action=code&name=".$v."&cc=");
-            $授权地址 = $oauthurl.'/authorize?client_id='.$client_id.'&scope=offline_access+files.readwrite.all+Sites.ReadWrite.All&response_type=code&redirect_uri=https://coding.mxin.ltd&state='.$redirect_uri;
+            $授权地址 = $oauthurl.'/authorize?client_id='.$client_id.'&scope=offline_access+files.readwrite.all+Sites.ReadWrite.All&response_type=code&redirect_uri=https://scfonedrive.github.io&state='.$redirect_uri;
             echo '<a href="'.$授权地址.'">授权应用</a>';
             
             
