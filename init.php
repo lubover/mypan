@@ -241,7 +241,7 @@ function splitlast($str, $split)
 
 function check_version()
 {
-    return  fetch::get('https://pan.mxin.ltd/version.json')->content;
+    return  fetch::get('https://localhost/version.json')->content;
 }
 
 if (!function_exists('str_is')) {
