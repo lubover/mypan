@@ -126,7 +126,7 @@ public function drives(){
             'SdkVersion: postman-graph/v1.0',
             'client_secret:'.$client_secret,
             'code: '.$code,
-            'redirect_uri: https://coding.mxin.ltd',
+            'redirect_uri: https://graph.microsoft.com/v1.0/me/drive/root',
             'Content-Type: application/x-www-form-urlencoded',
             'grant_type: authorization_code', ),
    ));
